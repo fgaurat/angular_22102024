@@ -1,0 +1,7 @@
+<p>show works!</p>
+
+count : {{ count }}
+<app-inc 
+[countValue]="count" 
+(increment)="onInc($event)">
+</app-inc>
